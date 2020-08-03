@@ -8,3 +8,4 @@ new line after Global user setup
 new test
 
 Git Shh keay
+Ssh fails
