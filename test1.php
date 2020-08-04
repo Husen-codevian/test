@@ -1,4 +1,5 @@
-new line added devloper-2 local
+new line added devloper-2 local (updated the curretn funciton)
+and also new line added
 
 husen git chek d
 
