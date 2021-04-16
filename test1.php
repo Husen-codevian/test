@@ -12,3 +12,5 @@ added by some one other
 added at the end of file local commit
 
 Line Added from Master Branch Just Now Before Nerge
+
+on same line added from Dev branch
