@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+     border: 1px dotted red; 
+}
+
+.mobile-app-banner{
+    background-image: url(img/bannerImg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+   
+}
+
+
+.mobile-app-banner-content{
+    color: white;
+     margin-top: 30%; 
+}
+
+.mobile-app-banner-content h1{
+    font-size: 50px;
+     font-weight:300; 
+}   
+
+.mobile-app-banner-content p{ 
+    font-size: 18px;
+    line-height: 30px;
+    margin: 20px 0px;
+}
+.buttons{
+    text-align: center;
+    padding: 10px 0px;
+}
+.btn{
+    margin: 15px;
+    width: 100px;
+    height: 50px;
+}
+
+/* SERVICES  */
+.heading{
+    margin-bottom: 30px;
+}
+.feature-text{
+    padding: 50px;
+    border:  2px solid black;
+    background: white;
+    border-radius: 6px;
+    margin-bottom: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+.feature-text h4{
+    margin: 40px 0px;
+}
+
+.feature-text:hover{
+    border-top: 6px solid #fb527a;
+     padding-top: 45px; 
+    box-shadow: 0  5px 15px rgba(0, 0, 0, 0.1);
+}
+.serviceImg-1{
+    background-image: url(img/skull.png);
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+
+/*ABOUT SECtOn  */
+
+#about{
+background: #f4f4f4;
+padding: 120px 0px;
+}
+
+.about-item{
+    background-color: white;
+    padding: 80px 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-item i{
+    font-size: 25px;
+    margin: 0;
+}
+
+.about-item h3{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.about-item hr{
+    width: 45px;
+    height: 3px;
+    background-color: #fb527a;
+    margin: 0 auto;
+    border:none;
+}
+
+.about-item p{
+    margin-top: 20px;
+    text-align: justify
+}
+
+.about-item:hover{
+    background-color: #fb527a
+}
+
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover p{
+color: white;
+}
+
+.about-item:hover hr{
+    background-color: white
+}
+
+.about-item,
+.about-item i,
+.about-item hr{
+    transition: all 400ms linear
+}
